@@ -23,6 +23,7 @@ use this plugin, you can upload any files to remote ftp servers(be aware that yo
 ## New changes
 * Compatibility with WP 5.3.2
 * Plugin Optimization
+* Persian Translation
 
 ## Screenshots
 ![screenshot 1](screenshot-1.png)
