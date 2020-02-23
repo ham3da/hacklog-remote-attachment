@@ -3,7 +3,7 @@ Contributors: ihacklog, ham3da
 Donate link: http://ihacklog.com/donate
 Tags: attachment,manager,admin,images,thumbnail,ftp,remote
 Requires at least: 4.0
-Tested up to: 5.3.2
+Tested up to: 4.9.5
 Stable tag: 1.3.3
 
 Adds remote attachments support for your WordPress blog.
@@ -22,9 +22,9 @@ use this plugin, you can upload any files to remote ftp servers(be aware that yo
 
 For MORE information,please visit the [plugin homepage](http://ihacklog.com/?p=5001 "plugin homepage") for any questions about the plugin.
 
-[installation guide](http://ihacklog.com/?p=4993 "installation guide")
+[installation guide](http://ihacklog.com/?p=4993 "installation guide") 
 
-* version 1.3.3 compatibility with WP 5.3.2, Added Persian translation
+* version 1.3.3 Compatibility with WP 5.3.2
 * version 1.3.1 fixup thumbnail srcset url with WP 4.5+
 * version 1.3.0 edit or crop image is working correctly now.
 * version 1.2.1 fixed the bug when uploading new theme or plugin this plugin may cause it to fail.
@@ -42,8 +42,8 @@ For MORE information,please visit the [plugin homepage](http://ihacklog.com/?p=5
 * 1.2.8 修复在PHP 5.3.x以后版本中报“Fatal error: Call-time pass-by-reference has been removed in hacklogra.class.php on line 539”错误的兼容性bug.
 * 1.3.0 修改图片后已经可以正常重新回传至远程ftp服务器了。
 
-更多信息请访问[插件主页](ihacklog.com/?p=5001 "plugin homepage") 获取关于插件的更多信息，使用技巧等.
-[安装指导](http://ihacklog.com/?p=4993 "安装指导")
+更多信息请访问[插件主页](http://ihacklog.com/?p=5001 "plugin homepage") 获取关于插件的更多信息，使用技巧等.
+[安装指导](http://ihacklog.com/?p=4993 "安装指导") 
 
 == Installation ==
 
@@ -64,7 +64,7 @@ You can visit [plugin homepage](http://ihacklog.com/?p=5001 "plugin homepage") f
 
 
 == Frequently Asked Questions ==
-[FAQ](http://ihacklog.com/?p=5001 "FAQ")
+[FAQ](http://ihacklog.com/?p=5001 "FAQ") 
 
 
 == Upgrade Notice ==
@@ -73,7 +73,6 @@ You can visit [plugin homepage](http://ihacklog.com/?p=5001 "plugin homepage") f
 
 
 == Changelog ==
-
 = 1.3.3 =
 * fixed: Compatibility with WP 5.3.2
 * Added Persian translation
@@ -150,3 +149,14 @@ You can visit [plugin homepage](http://ihacklog.com/?p=5001 "plugin homepage") f
 
 = 1.0.0 =
 * released the first version.
+
+
+
+
+
+
+
+
+
+
+

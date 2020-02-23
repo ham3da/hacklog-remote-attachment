@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hacklog Remote Attachment\n"
+"POT-Creation-Date: 2020-02-23 15:06+0330\n"
+"PO-Revision-Date: 2020-02-23 15:07+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: loader.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/hacklogra.class.php:204 includes/hacklogra.class.php:605
+msgid "upload file to remote server failed!"
+msgstr "آپلود فایل در سرور FTP ناموفق بود !"
+
+#: includes/hacklogra.class.php:466
+#, php-format
+msgid "Click <a href=\"%s\">here</a> to setup the plugin options."
+msgstr "برای انجام تنظیمات افزونه <a href=\"%s\"> اینجا کلیک کنید </a>."
+
+#: includes/hacklogra.class.php:577
+msgid "failed to make dir on remote server! Please check your FTP permissions."
+msgstr ""
+"ایجاد مسیر در سرور راه دور با شکست مواجه شد! لطفاً سطح دسترسی های FTP خود را "
+"بررسی کنید."
+
+#: includes/hacklogra.class.php:792
+msgid "Explanation of some Options"
+msgstr "توضیح برخی گزینهها"
+
+#: includes/hacklogra.class.php:793
+msgid "<strong>Remote base URL</strong> is the URL to your Ftp root path."
+msgstr ""
+"<strong> آدرس پایه از راه دور </strong> نشانی اینترنتی مسیر ریشه Ftp شما است."
+
+#: includes/hacklogra.class.php:794
+msgid ""
+"<strong>FTP Remote path</strong> is the relative path to your FTP main "
+"directory. Use \"<strong>.</strong>\" for FTP main(root) directory.You can "
+"use sub-directory Like <strong>wp-files</strong>"
+msgstr ""
+"مسیر اولیه فایل‌ها بر روی مسیر اصلی FTP. برای استفاده از مسیر اصلی(روت) از "
+"\"<strong>.</strong>\" استفاده کنید. همچنین شما می‌توانید از مسیر زیر شاخه‌ای "
+"استفاده کنید مثل <strong>wp-files</strong>"
+
+#: includes/hacklogra.class.php:795
+msgid ""
+"<strong>HTTP Remote path</strong> is the relative path to your HTTP main "
+"directory. Use \"<strong>.</strong>\" for HTTP main(root) directory.You can "
+"use sub-directory Like <strong>wp-files</strong>"
+msgstr ""
+"<strong>مسیر HTTP از راه دور</strong> مسیر اولیه HTTP روی هاست شما. برای "
+"استفاده از ریشه هاست یا همان روت از \"<strong>.</strong>\" استفاده کنید. "
+"همچنین شما می‌توانید از زیر شاخه استفاده نمایید مانند: <strong>wp-files</"
+"strong>"
+
+#: includes/hacklogra.class.php:796
+msgid "For more information:"
+msgstr "برای اطلاعات بیشتر:"
+
+#: includes/hacklogra.class.php:796
+msgid ""
+"Please visit the <a href=\"http://ihacklog.com/?p=5001\" target=\"_blank"
+"\">Plugin Home Page</a>"
+msgstr ""
+"لطفاً از <a href=\"http://ihacklog.com/?p=5001\" target=\"_blank\">صفحه "
+"افزونه</a> بازدید کنید"
+
+#: includes/hacklogra.class.php:798
+#, php-format
+msgid "%s Help"
+msgstr "%s راهنما"
+
+#: includes/hacklogra.class.php:816 includes/hacklogra.class.php:901
+msgid "Hacklog Remote Attachment Options"
+msgstr "تنظیمات اتصال به هاست دانلود از راه دور"
+
+#: includes/hacklogra.class.php:816
+msgid "Remote Attachment"
+msgstr "پیوست فایل از راه دور"
+
+#: includes/hacklogra.class.php:850
+msgid "Options updated."
+msgstr "تنظیمات به روز رسانی شدند."
+
+#: includes/hacklogra.class.php:854
+msgid "Nothing changed."
+msgstr "چیزی تغییر نکرده است."
+
+#: includes/hacklogra.class.php:865
+msgid "Connected successfully."
+msgstr "اتصال با موفقیت برقرار شد."
+
+#: includes/hacklogra.class.php:869
+msgid "Failed to connect to remote server!"
+msgstr "اتصال به سرور از راه دور ناموفق بود!"
+
+#: includes/hacklogra.class.php:892
+msgid "posts has been updated."
+msgstr "پست به روز رسانی شد."
+
+#: includes/hacklogra.class.php:896
+msgid "no posts been updated."
+msgstr "هیچ پستی به روز رسانی نشده است."
+
+#: includes/hacklogra.class.php:910
+msgid "Ftp server"
+msgstr "سرور FTP"
+
+#: includes/hacklogra.class.php:914
+msgid "the IP or domain name of remote file server."
+msgstr "آی پی یا نام دامنه سرور فایل‌های راه درو."
+
+#: includes/hacklogra.class.php:918
+msgid "Ftp server port"
+msgstr "پورت FTP"
+
+#: includes/hacklogra.class.php:922
+msgid "the listenning port of remote FTP server."
+msgstr "پورت FTP خود را وارد کنید ، معمولا به صورت پیشفرض 21 می باشد."
+
+#: includes/hacklogra.class.php:927
+msgid "Ftp username"
+msgstr "نام کاربری FTP"
+
+#: includes/hacklogra.class.php:931
+msgid "the Ftp username."
+msgstr "نام کاربری FTP."
+
+#: includes/hacklogra.class.php:936
+msgid "Ftp password"
+msgstr "رمز عبور FTP"
+
+#: includes/hacklogra.class.php:940
+msgid "the password."
+msgstr "رمز عبور  FTP."
+
+#: includes/hacklogra.class.php:944
+msgid "Ftp timeout"
+msgstr "زمان انتظار FTP"
+
+#: includes/hacklogra.class.php:948
+msgid "FTP connection timeout."
+msgstr "مدت زمان انتظار برای اتصال به سرور FTP."
+
+#: includes/hacklogra.class.php:953
+msgid "Remote base URL"
+msgstr "آدرس پایه اتصال از راه دور"
+
+#: includes/hacklogra.class.php:958
+msgid ""
+"Remote base URL,the URL to your Ftp root path.for example: <strong>http://www."
+"your-domain.com</strong>."
+msgstr ""
+"آدرس پایه فایل‌ها در واقع آدرس اینترنتی هاست دانلود شما می‌باشد. مانند : "
+"<strong>http://www.your-domain.com</strong>."
+
+#: includes/hacklogra.class.php:962
+msgid "FTP Remote path"
+msgstr "مسیر فایل‌ها در FTP"
+
+#: includes/hacklogra.class.php:966
+msgid ""
+"the relative path to your FTP main directory. Use \"<strong>.</strong>\" for "
+"FTP main(root) directory.You can use sub-directory Like <strong>wp-files</"
+"strong>"
+msgstr ""
+"مسیر اولیه فایل‌ها بر روی مسیر ریشه FTP. برای استفاده از ریشه هاست یا همان روت "
+"از \"<strong>.</strong>\" استفاده کنید. همچنین شما می‌توانید از مسیر زیر "
+"شاخه‌ای استفاده کنید مانند <strong>wp-files</strong>"
+
+#: includes/hacklogra.class.php:970
+msgid "HTTP Remote path"
+msgstr "مسیر HTTP فایل‌ها"
+
+#: includes/hacklogra.class.php:974
+msgid ""
+"the relative path to your HTTP main directory. Use \"<strong>.</strong>\" for "
+"HTTP main(root) directory.You can use sub-directory Like <strong>wp-files</"
+"strong>"
+msgstr ""
+"مسیر اولیه HTTP بر روی ریشه هاست. برای استفاده از ریشه هاست یا همان روت از "
+"\"<strong>.</strong>\" استفاده کنید. همچنین شما میتوانید از زیر شاخه استفاده "
+"نمایید مانند: <strong>wp-files</strong>"
+
+#: includes/hacklogra.class.php:980
+msgid "Save Options"
+msgstr "ذخیره تنظیمات"
+
+#: includes/hacklogra.class.php:986
+msgid "Hacklog Remote Attachment Status"
+msgstr "وضعیت پیوست فایلها از راه دور"
+
+#: includes/hacklogra.class.php:989
+msgid "Space used on remote server:"
+msgstr "فضای مورد استفاده در سرور راه دور:"
+
+#: includes/hacklogra.class.php:994
+msgid "warning:"
+msgstr "هشدار:"
+
+#: includes/hacklogra.class.php:995
+msgid ""
+"if you haven't moved all your attachments OR dont't know what below means,"
+"please <strong>DO NOT</strong> click the link below!"
+msgstr ""
+"اگر شما تمام پیوست های خود را منتقل نکرده‌اید یا نمی‌دانید که منظور از عبارات "
+"زیر چیست، لطفاً هیچ کاری <strong>انجام ندهید</strong>!"
+
+#: includes/hacklogra.class.php:998
+msgid "Move"
+msgstr "انتقال"
+
+#: includes/hacklogra.class.php:1001
+msgid ""
+"if you have moved all your attachments to the remote server, then you can "
+"click"
+msgstr ""
+"اگر شما تمام پیوست های خود را به سرور راه دور منتقل کرده‌اید، می‌توانید کلیک "
+"کنید"
+
+#: includes/hacklogra.class.php:1002 includes/hacklogra.class.php:1010
+msgid ""
+"Are your sure to do this?Make sure you have backuped your database tables."
+msgstr ""
+"آیا برای انجام این کار مطمئن هستید؟ اطمینان حاصل کنید که از پایگاه داده خود "
+"پشتیبان تهیه کرده‌اید."
+
+#: includes/hacklogra.class.php:1003 includes/hacklogra.class.php:1011
+msgid "here"
+msgstr "اینجا"
+
+#: includes/hacklogra.class.php:1003 includes/hacklogra.class.php:1011
+msgid " to update the database."
+msgstr " برای به روز رسانی پایگاه داده."
+
+#: includes/hacklogra.class.php:1006
+msgid "Recovery"
+msgstr "بازیابی"
+
+#: includes/hacklogra.class.php:1009
+msgid ""
+"if you have moved all your attachments from the remote server to local "
+"server, then you can click"
+msgstr ""
+"اگر همه پیوست‌های خود را از سرور راه دور به سرور محلی منتقل کرده باشید، "
+"می‌توانید کلیک کنید"
+
+#. Plugin Name of the plugin/theme
+msgid "Hacklog Remote Attachment"
+msgstr "پیوست فایل از راه دور"
+
+#. Plugin URI of the plugin/theme
+msgid "http://ihacklog.com/?p=5001"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress 远程附件上传插件.Remote attachment support for WordPress.Support "
+"Multisite."
+msgstr "افزونه پیوست فایل‌ها از راه دور از وردپرس چند سایته نیز پشتیبانی می کند."
+
+#. Author of the plugin/theme
+msgid ""
+"<a href=\"http://ihacklog.com/\">荒野无灯</a>, <a href=\"http://ham3da.ir/"
+"\">ham3da</a>"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ihacklog.com/"
+msgstr "http://ham3da.ir/"
