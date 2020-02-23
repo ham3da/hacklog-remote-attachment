@@ -42,8 +42,8 @@ For MORE information,please visit the [plugin homepage](http://ihacklog.com/?p=5
 * 1.2.8 修复在PHP 5.3.x以后版本中报“Fatal error: Call-time pass-by-reference has been removed in hacklogra.class.php on line 539”错误的兼容性bug.
 * 1.3.0 修改图片后已经可以正常重新回传至远程ftp服务器了。
 
-更多信息请访问[插件主页](ihacklog.com/?p=5001 "plugin homepage") 获取关于插件的更多信息，使用技巧等.
-[安装指导](http://ihacklog.com/?p=4993 "安装指导")
+For more information, please visit [plugin homepage] (ihacklog.com/?p=5001 "plugin homepage") for more information about plug-ins, tips and more.
+[Installation Guide] (http://ihacklog.com/?p=4993 "Installation Guide")
 
 == Installation ==
 
@@ -56,10 +56,7 @@ You can visit [plugin homepage](http://ihacklog.com/?p=5001 "plugin homepage") f
 == Screenshots ==
 
 1. screenshot-1.png
-2. screenshot-2.png
-
-
-  
+ 
 
 
 

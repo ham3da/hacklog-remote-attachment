@@ -13,21 +13,6 @@ use this plugin, you can upload any files to remote ftp servers(be aware that yo
 * with this plugin,you can move all your local server files to remote server.
 * after you've uninstall this plugin,you can move remote server files to local server if you'd like to do so.
 
-For MORE information,please visit the [plugin homepage](http://ihacklog.com/?p=5001 "plugin homepage") for any questions about the plugin.
-
-[installation guide](http://ihacklog.com/?p=4993 "installation guide") 
-
-* version 1.3.3 Compatibility with WP 5.3.2
-* version 1.3.1 fixup thumbnail srcset url with WP 4.5+
-* version 1.3.0 edit or crop image is working correctly now.
-* version 1.2.1 fixed the bug when uploading new theme or plugin this plugin may cause it to fail.
-* version 1.2.0 added duplicated file checking,so that the existed remote files will not be overwrote.
-* version 1.1.0 added compatibility with watermark plugins
-* 1.0.2 Added the function of automatically creating remote directories. Solve the problem of "Failed to create directory on remote server" on some FTP servers.
-
-For more information, please visit the [plugin homepage] (http://ihacklog.com/?p=5001 "plugin homepage") for more information about plug-ins, tips and more.
-[Installation Guide] (http://ihacklog.com/?p=4993 "Installation Guide")
-
 ## Installation
 
 1. Upload the whole fold `hacklog-remote-attachment` to the `/wp-content/plugins/` directory
@@ -35,110 +20,16 @@ For more information, please visit the [plugin homepage] (http://ihacklog.com/?p
 3. Configure the plugin via `Settings` -> `Hacklog Remote Attachment` menu and it's OK now,you can upload attachments(iamges,videos,audio,etc.) to the remote FTP server.
 4. If your have moved all your local server files to remote server,then you can `UPDATE THE DATABASE` so that all your attachments URLs will be OK.
 
-== Screenshots ==
+## New changes
+* Compatibility with WP 5.3.2
+* Plugin Optimization
 
-1. screenshot-1.png
-2. screenshot-2.png
+## Screenshots
+![screenshot 1](screenshot-1.png)
 
+## 
+* Forked from [Hacklog Remote Attachment](https://github.com/wp-plugins/hacklog-remote-attachment/)
 
-  
-
-
-
-== Frequently Asked Questions ==
-[FAQ](http://ihacklog.com/?p=5001 "FAQ") 
-
-
-== Upgrade Notice ==
-
-
-
-
-== Changelog ==
-= 1.3.3 =
-* fixed: Compatibility with WP 5.3.2
-* Added Persian translation
-
-= 1.3.1 =
-* fixed: thumbnail srcset url with WP 4.5+
-
-= 1.3.0 =
-* fixed: edit or crop image is working correctly now.
-
-= 1.2.8 =
-* fixed: compatibility with PHP version above 5.3.x ,to avoid PHP complains “Fatal error: Call-time pass-by-reference has been removed in hacklogra.class.php on line 539”.
-
-= 1.2.7 =
-* fixed: Windows Live Writer file uploading bug(url incorrect).
-
-= 1.2.6 =
-* added: xmlrpc support (when use Windows Live Writer or other client via xmlrpc upload attahcment,the attachment will auto uploaded to remote FTP server )
-
-= 1.2.5 =
-* fixed: tools-- "You do not have permission to do this" error.
-* fixed: wp_delete_file HOOK should return a value (string)
-
-= 1.2.4 =
-* added: duplicated thumbnail filename (this things may happen when crop is TRUE)
-
-= 1.2.3 =
-* improved: encrypt FTP password and then store it to the DB
-* improved: support connect with both php FTP module and php socket API
-
-= 1.2.2 =
-* fixed: DO NOT delete the options when the plugin is deactivating.
-
-= 1.2.1 =
-* fixed the bug when uploading new theme or plugin this plugin may cause it to fail.
-
-= 1.2.0 =
-* fixed: use new WP_Screen API to display help information
-* improved: check FTP connection in the `Plugins` page
-* fixed: added duplicated file checking,so that the existed remote files will not be overwrote.
-
-= 1.1.6 =
-* fixed: changed upload file permission to 0644 ,changed created directory permission to 0755
-* fixed: get the right subdir when the post publish date was different from the media upload date.
-
-= 1.1.5 =
-* fixed: when no thumbnails,do not run foreach in function upload_images
-
-= 1.1.4 =
-* changed remote path to FTP remote path and added HTTP remote path to support the mapping relationship between FTP remote path and HTTP remote path
-* fixed:when connection failed,delete the file on local server.
- 
-= 1.1.3 =
-* fixed a bug(when remote path is root directory of FTP server)
-* added FTP connection timeout option
-* added FTP connection error message returning
-
-= 1.1.1 =
-* fixed a bug,when uploading a non-image file the image upload handler will handle the non-image file. (bug bring in version 1.1.0)
-= 1.1.2 =
-* fixed a bug in public static function upload_images(bug bring in version 1.1.1)
-
-= 1.1.0 =
-* handle image file in the later(in HOOK wp_generate_attachment_metadata) for compatibility with watermark plugins
-* removed the scheduled hook,now delete the orig image file just after uploaded.
-
-= 1.0.2 =
-* added: remote direcotry auto-make functions.If the remote dir does not exists,the plugin will try to make it.
-* added: put index.html to disable directory browsing
-
-= 1.0.1 =
-* fixed a small bug(cron delete).
-
-
-= 1.0.0 =
-* released the first version.
-
-
-
-
-
-
-
-
-
-
-
+## Donation
+* <b>Perfect Money:</b> U21873528
+* <b>حمایت از ما در ایران:</b> [حمایت ازما](https://ham3da.ir/payment/)
