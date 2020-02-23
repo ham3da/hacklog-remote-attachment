@@ -1,14 +1,7 @@
-=== Hacklog Remote Attachment ===
-Contributors: ihacklog, ham3da
-Donate link: http://ihacklog.com/donate
-Tags: attachment,manager,admin,images,thumbnail,ftp,remote
-Requires at least: 4.0
-Tested up to: 4.9.5
-Stable tag: 1.3.3
-
+# Hacklog Remote Attachment
 Adds remote attachments support for your WordPress blog.
 
-== Description ==
+## Description 
 Features: Adds remote attachments support for your WordPress blog.
 
 use this plugin, you can upload any files to remote ftp servers(be aware that your FTP server must has Apache or other HTTP server daemon) in WordPress.
@@ -30,28 +23,17 @@ For MORE information,please visit the [plugin homepage](http://ihacklog.com/?p=5
 * version 1.2.1 fixed the bug when uploading new theme or plugin this plugin may cause it to fail.
 * version 1.2.0 added duplicated file checking,so that the existed remote files will not be overwrote.
 * version 1.1.0 added compatibility with watermark plugins
+* 1.0.2 Added the function of automatically creating remote directories. Solve the problem of "Failed to create directory on remote server" on some FTP servers.
 
-* 1.0.2 增加自动创建远程目录功能。解决在某些FTP服务器出现“在远程服务器创建目录失败”的问题。
-* 1.1.0 增加与水印插件的兼容性，使上传到远程服务器的图片同样可以加上水印
-* 1.2.0 增加重复文件检测，避免同名文件被覆盖。更新和完善了帮助信息。
-* 1.2.1 修正在后台上传主题或插件时的bug.
-* 1.2.3 加密保存FTP密码,增加插件兼容性（同时支持ftp扩展方式和socket方式连接远程FTP服务器）
-* 1.2.4 增加重复缩略图字段检测
-* 1.2.6 增加对xmlrpc支持(支持通过Windows Live Writer 上传图片时自动上传到远程ftp服务器)
-* 1.2.7 修复Windows Live Writer 上传图片时url不正确的bug
-* 1.2.8 修复在PHP 5.3.x以后版本中报“Fatal error: Call-time pass-by-reference has been removed in hacklogra.class.php on line 539”错误的兼容性bug.
-* 1.3.0 修改图片后已经可以正常重新回传至远程ftp服务器了。
+For more information, please visit the [plugin homepage] (http://ihacklog.com/?p=5001 "plugin homepage") for more information about plug-ins, tips and more.
+[Installation Guide] (http://ihacklog.com/?p=4993 "Installation Guide")
 
-更多信息请访问[插件主页](http://ihacklog.com/?p=5001 "plugin homepage") 获取关于插件的更多信息，使用技巧等.
-[安装指导](http://ihacklog.com/?p=4993 "安装指导") 
-
-== Installation ==
+## Installation
 
 1. Upload the whole fold `hacklog-remote-attachment` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Configure the plugin via `Settings` -> `Hacklog Remote Attachment` menu and it's OK now,you can upload attachments(iamges,videos,audio,etc.) to the remote FTP server.
 4. If your have moved all your local server files to remote server,then you can `UPDATE THE DATABASE` so that all your attachments URLs will be OK.
-You can visit [plugin homepage](http://ihacklog.com/?p=5001 "plugin homepage") for detailed installation guide.
 
 == Screenshots ==
 
