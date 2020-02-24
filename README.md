@@ -1,5 +1,5 @@
 # Hacklog Remote Attachment
-Adds remote attachments support for your WordPress blog.
+Upload and manage WordPress media in another host using the Hacklog Remote Attachment plugin.
 
 ## Description 
 Features: Adds remote attachments support for your WordPress blog.
@@ -15,7 +15,7 @@ use this plugin, you can upload any files to remote ftp servers(be aware that yo
 
 ## Installation
 
-1. Upload the whole fold `hacklog-remote-attachment` to the `/wp-content/plugins/` directory
+1. Upload the `hacklog-remote-attachment` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Configure the plugin via `Settings` -> `Hacklog Remote Attachment` menu and it's OK now,you can upload attachments(iamges,videos,audio,etc.) to the remote FTP server.
 4. If your have moved all your local server files to remote server,then you can `UPDATE THE DATABASE` so that all your attachments URLs will be OK.
